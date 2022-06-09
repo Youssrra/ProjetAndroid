@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="MAIN MENU" >
+    <menu>
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:iconTint="@color/black"
+            android:title="Home"
+            android:checked="true" />
+        <item
+            android:id="@+id/News"
+            android:icon="@drawable/newspaper"
+            android:iconTint="@color/black"
+            android:title="News" />
+        <item
+            android:id="@+id/Notification"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            android:iconTint="@color/black"
+            android:title="Notification" />
+        <item
+            android:id="@+id/Map"
+            android:icon="@drawable/ic_baseline_map_24"
+            android:iconTint="@color/black"
+            android:title="Map" />
+    </menu>
+    </item>
+
+
+    <item android:title="ACCOUNT">
+        <menu>
+            <item
+                android:id="@+id/Profile"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:iconTint="@color/black"
+                android:title="Profile" />
+            <item
+                android:id="@+id/LogOut"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:iconTint="@color/black"
+                android:title="LogOut" />
+        </menu>
+    </item>
+</menu>

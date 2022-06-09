@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ui.activitity.AuthenticationsActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <ImageView
+                    android:layout_width="210dp"
+                    android:layout_height="210dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/undraw_messaging_fun_re_vic9" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Email Verification"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtviewPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:lineSpacingExtra="6dp"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:weightSum="100">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="16.66"
+                        android:background="#f6f6f6">
+
+                        <EditText
+                            android:id="@+id/codeDigit1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/comfortaa"
+                            android:hint="&#x2731;"
+                            android:inputType="phone"
+                            android:maxLength="1"
+                            android:padding="12dp"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textColorHint="#c7c7c8"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="16.66"
+                        android:background="#f6f6f6">
+
+                        <EditText
+                            android:id="@+id/codeDigit2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/comfortaa"
+                            android:hint="&#x2731;"
+                            android:inputType="phone"
+                            android:maxLength="1"
+                            android:padding="12dp"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textColorHint="#c7c7c8"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="16.66"
+                        android:background="#f6f6f6">
+
+                        <EditText
+                            android:id="@+id/codeDigit3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/comfortaa"
+                            android:hint="&#x2731;"
+                            android:inputType="phone"
+                            android:maxLength="1"
+                            android:padding="12dp"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textColorHint="#c7c7c8"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="16.66"
+                        android:background="#f6f6f6">
+
+                        <EditText
+                            android:id="@+id/codeDigit4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/comfortaa"
+                            android:hint="&#x2731;"
+                            android:inputType="phone"
+                            android:maxLength="1"
+                            android:padding="12dp"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textColorHint="#c7c7c8"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="16.66"
+                        android:background="#f6f6f6">
+
+                        <EditText
+                            android:id="@+id/codeDigit5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/comfortaa"
+                            android:hint="&#x2731;"
+                            android:inputType="phone"
+                            android:maxLength="1"
+                            android:padding="12dp"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textColorHint="#c7c7c8"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="16.66"
+                        android:background="#f6f6f6">
+
+                        <EditText
+                            android:id="@+id/codeDigit6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/comfortaa"
+                            android:hint="&#x2731;"
+                            android:inputType="phone"
+                            android:maxLength="1"
+                            android:padding="12dp"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textColorHint="#c7c7c8"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Didn't recieve the CODE?"
+                    android:textAlignment="center"
+                    android:textColor="#a3a3a3"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/btnResendCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="RESEND CODE"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorSecondary"
+                    android:textSize="16sp" />
+
+
+                <Button
+                    android:id="@+id/btnverify"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="1dp"
+                    android:backgroundTint="@color/colorSecondary"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="VERIFY"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/errorcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#D60E0E"
+                    android:textStyle="bold"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

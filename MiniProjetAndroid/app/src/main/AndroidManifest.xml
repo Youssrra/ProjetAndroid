@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.miniprojetandroid">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MiniProjetAndroid">
+        <activity
+            android:name=".ui.activitity.PopUpWindow"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activitity.AuthenticationsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_authentification"
+            android:theme="@style/Theme.MiniProjetAndroid.NoActionBar" />
+        <activity
+            android:name=".ui.activitity.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ui.activitity.HomeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.TestNoActionBar" />
+        <activity
+            android:name=".ui.ui.activitity.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.ui.activitity.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.ui.activitity.SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".ui.ui.activitity.MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
